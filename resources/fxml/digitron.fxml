@@ -37,7 +37,7 @@
         <Button fx:id="btn1" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClickOne" text="1" textAlignment="CENTER" GridPane.rowIndex="4" />
         <Button fx:id="btn2" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClickTwo" text="2" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="4" />
         <Button fx:id="btn3" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClickThree" text="3" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-        <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClickZero" text="0" textAlignment="CENTER" GridPane.columnSpan="2" GridPane.rowIndex="5" />
+        <Button fx:id="btn0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClickZero" text="0" textAlignment="CENTER" GridPane.columnSpan="2" GridPane.rowIndex="5" />
         <Button fx:id="dotBtn" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClickP" text="." textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="5" />
         <Button fx:id="plusBtn" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClickPlus" text="+" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="2" GridPane.rowSpan="2" />
         <Button fx:id="equalsBtn" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClickEquals" text="=" GridPane.columnIndex="3" GridPane.rowIndex="4" GridPane.rowSpan="2" />

@@ -5,10 +5,10 @@ import javafx.scene.control.Label;
 public class Controller {
     public Label display;
     private Boolean tacka=false;
-    private SimpleStringProperty prviParametar=new SimpleStringProperty("");
+    private SimpleStringProperty prviParametar=new SimpleStringProperty("0");
     private Double prviBroj=0.0;
     private Double drugiBroj=0.0;
-    private String operacija=null;
+    private String operacija="";
     private boolean poslijeJednako=false;
     public SimpleStringProperty prviParametarProperty(){
         return prviParametar;
@@ -18,10 +18,13 @@ public class Controller {
     }
     private void postaviPrviParametar(String vrijednost){
         if(poslijeJednako){
-            prviParametar.set("");
+            prviParametar.set("0");
             poslijeJednako=false;
+        }else if(prviParametar.get().equals("0") && !vrijednost.equals(".")){
+            prviParametar.set(vrijednost);
+        }else{
+            prviParametar.set(prviParametar.get()+vrijednost);
         }
-        prviParametar.set(prviParametar.get()+vrijednost);
     }
     public void textClick(ActionEvent actionEvent) {
     }
@@ -82,10 +85,11 @@ public class Controller {
                 prviParametar.set((prviBroj%drugiBroj)+"");
                 break;
             default:
+                prviParametar.set(drugiBroj+"");
                 // code block
         } //prviBroj=Double.parseDouble(prviParametar.get()); drugiBroj=0.0;
           prviBroj=0.0;
-          operacija=null; poslijeJednako=true; tacka=false;
+          operacija=""; poslijeJednako=true; tacka=false;
         //System.out.println("prviBroj: "+prviBroj+", drugiBroj: "+drugiBroj+", operacija: "+operacija);
 
        // prviParametar=null;
@@ -100,7 +104,6 @@ public class Controller {
     }
     public void postaviDrugiBroj(){
         drugiBroj=Double.parseDouble(prviParametar.get());
-        prviParametar.set("");
     }
     public void buttonClickPlus(ActionEvent actionEvent) {
         operacija="add"; postaviPrviBroj();

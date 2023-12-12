@@ -15,12 +15,11 @@ import org.testfx.framework.junit5.Start;
 
 @ExtendWith(ApplicationExtension.class)
 class MainTest {
-
     private Label display;
 
     @Start
     public void start (Stage stage) throws Exception {
-        Parent mainNode = FXMLLoader.load(getClass().getResource("/fxml/digitron.fxml"));
+        Parent mainNode = FXMLLoader.load(getClass().getResource("fxml/digitron.fxml"));
         stage.setScene(new Scene(mainNode));
         stage.show();
         stage.toFront();
