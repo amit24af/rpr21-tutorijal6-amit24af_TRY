@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd662424-5e64-492e-84a1-9be571d102f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpr20-tutorijal6/ba/unsa/etf/rpr/tutorijal06/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr20-tutorijal6/ba/unsa/etf/rpr/tutorijal06/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpr20-tutorijal6/fxml/digitron.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr20-tutorijal6/fxml/digitron.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpr20-tutorijal6/fxml/digitron.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr20-tutorijal6/fxml/digitron.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/rpr20-tutorijal6/ba/unsa/etf/rpr/tutorijal06/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/rpr20-tutorijal6/ba/unsa/etf/rpr/tutorijal06/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fxml/digitron.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fxml/digitron.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fxml/digitron.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fxml/digitron.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpr20-tutorijal6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr20-tutorijal6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal06/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal06/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/tutorijal06/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/tutorijal06/MainTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="bd662424-5e64-492e-84a1-9be571d102f6" name="Default Changelist" comment="nk" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +19,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "amit24af"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="095acd4d-0b39-4de7-82a6-41977d411f3e" />
+        <option name="url" value="https://github.com/amit24af/rpr21-tutorijal6-amit24af_TRY.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="showPreview" value="true" />
@@ -286,8 +288,17 @@
       <workItem from="1701777128949" duration="808000" />
       <workItem from="1701779124330" duration="13774000" />
       <workItem from="1702072091455" duration="2516000" />
-      <workItem from="1702398903362" duration="990000" />
+      <workItem from="1702398903362" duration="1296000" />
     </task>
+    <task id="LOCAL-00001" summary="nk">
+      <option name="closed" value="true" />
+      <created>1702400179278</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702400179278</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +319,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="nk" />
+    <option name="LAST_COMMIT_MESSAGE" value="nk" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
