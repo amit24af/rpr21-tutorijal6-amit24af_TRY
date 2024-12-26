@@ -17,8 +17,12 @@ public class Controller {
         return prviParametar.get();
     }
     private void postaviPrviParametar(String vrijednost){
+        System.out.println("poziva se postaviPrviParametar("+vrijednost+")");
         if(poslijeJednako){
-            prviParametar.set("0");
+            /*if(vrijednost!=null){
+                prviParametar.set("0");
+            } else*/ prviParametar.set(vrijednost);
+           // prviParametar.set("0");
             poslijeJednako=false;
         }else if(prviParametar.get().equals("0") && !vrijednost.equals(".")){
             prviParametar.set(vrijednost);
